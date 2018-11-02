@@ -1,0 +1,33 @@
+{
+  "name": "react2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4",
+    "react-native-pdf": "^5.0.9",
+    "react-navigation": "^2.18.2",
+    "rn-fetch-blob": "^0.10.13",
+    "tcomb-form-native": "^0.6.20"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "eslint-config-equimper": "^2.2.2",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
