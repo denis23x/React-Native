@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import { StyleSheet, View } from 'react-native';
-import { UiFormLogin } from '../components/ui-form-login'
+import { StyleSheet, View } from 'react-native'
+import UiFormLogin from '../components/ui-form-login'
 
 export default class LoginScreen extends React.Component {
   static navigationOptions = {
     header: null
-  }
+  };
   render() {
     return (<View style={styles.container}>
         <UiFormLogin/>
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   }
-})
+});

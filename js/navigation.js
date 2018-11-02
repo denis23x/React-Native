@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import { View } from 'react-native';
 import { StackNavigator } from 'react-navigation'
-import NavigationService from './navigationService';
+import NavigationService from './navigationService'
 
 import LoginScreen from '../views/login'
 import HomeScreen from '../views/home'
@@ -20,9 +19,9 @@ const TopLevelNavigator = StackNavigator(
     },
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Login',
   }
-)
+);
 
 export default class Navigator extends React.Component {
   render() {
